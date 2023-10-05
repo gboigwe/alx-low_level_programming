@@ -2,7 +2,7 @@
 /**
  * main - Entry Point
  *
- * Descrpitio: This program prints exactly a line content using the put function
+ * Descrpition: This program prints exactly a line content using the put function
  *
  * Return: value 0
  */
