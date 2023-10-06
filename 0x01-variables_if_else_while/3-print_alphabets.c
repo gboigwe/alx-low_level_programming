@@ -12,9 +12,9 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
-	
+
 	alpha = 'A';
-	
+
 	while (alpha <= 'Z')
 	{
 		putchar(alpha);
@@ -22,6 +22,6 @@ int main(void)
 	}
 
 	putchar('\n');
-	
+
 	return (0);
 }
