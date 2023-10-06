@@ -12,8 +12,8 @@ int main(void)
 	while (alpha == 'z' && ALPHA =='Z')
 	{
 		putchar(alpha);
-		putchar(ALPHA);
 		alpha++;
+		putchar(ALPHA);
 		ALPHA++;
 	}
 	return (0);
