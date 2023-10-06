@@ -7,14 +7,19 @@
 int main(void)
 {
 	char alpha = 'a';
-	char ALPHA = 'A';
-
-	while (alpha == 'z' && ALPHA =='Z')
+	
+	while (alpha == 'z')
 	{
 		putchar(alpha);
 		alpha++;
-		putchar(ALPHA);
-		ALPHA++;
+	}
+	
+	alpha = 'A';
+
+	while (alpha == 'Z')
+	{
+		putchar(alpha);
+		alpha++;
 	}
 	return (0);
 }
