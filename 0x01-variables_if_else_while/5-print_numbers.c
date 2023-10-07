@@ -6,10 +6,15 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
+	int num = 0;
+
+	while (num <= 9)
 	{
-		printf("%d\n",i);
+		putchar(num + '0');
+		num++;
 	}
+
+	purchar('\n');
 
 	return (0);
 }
