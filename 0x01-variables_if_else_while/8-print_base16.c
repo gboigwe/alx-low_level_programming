@@ -6,16 +6,19 @@
  */
 int main(void)
 {
-	for (int i = 0; 1< 10; i++)
+	int i = 0;
+
+	while (i < 16)
 	{
 		if (i < 10)
 		{
-			putchar('0' + 1);
+			putchar('0' + i);
 		}
 		else
 		{
-			putchar('a' +(i - 10));
+			putchar('a' + (i - 10));
 		}
+		i++
 	}
 
 	putchar('\n');
