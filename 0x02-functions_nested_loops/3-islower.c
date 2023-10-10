@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - Checks for lower case letter
+ * @c: The character to be written
  *
  * Return: Always 0 (Success)
  */
