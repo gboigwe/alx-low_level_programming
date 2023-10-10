@@ -1,15 +1,5 @@
 #include <stdio.h>
 /**
- * _putchar - Writes a character to the standard output
- * @c: This parameter is not in this context
- *
- * Return: Always 0 (Success)
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-/**
  * main - Entry point
  *
  * Return: Always 0 (Success)
