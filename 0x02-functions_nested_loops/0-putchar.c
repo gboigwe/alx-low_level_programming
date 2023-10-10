@@ -1,17 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char str[] = "_putchar\n";
-
-	for (int a = 0; str[a] != 0; a++)
-	{
-		_putchar(str[]);
-	}
+	-putchar('_putchar');
 	return (0);
 }
