@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_sing - prints a sign of a number
+ * print_sign - Prints the sign of a number
+ * @n: The character to be written
  *
  * Return: Always 0 (Success)
  */
