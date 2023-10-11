@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	while  (i < 102)
+	while  (i < 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
