@@ -4,11 +4,6 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	naturals(1024);
-	return (0);
-}
 void naturals(int n)
 {
 	for (int i = 0; i < n; i++)
@@ -18,4 +13,9 @@ void naturals(int n)
 			printf("%d\n", i);
 		}
 	}
+}
+int main()
+{
+	naturals(1024);
+	return (0);
 }
