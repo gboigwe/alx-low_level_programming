@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void naturals(int n)
+int main(void)
 {
 	int i;
 
