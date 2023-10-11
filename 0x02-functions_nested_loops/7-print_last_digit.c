@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - prints the last digit
+ * @c: The character to be written
  *
  * Return: Always 0 (Success)
  */
