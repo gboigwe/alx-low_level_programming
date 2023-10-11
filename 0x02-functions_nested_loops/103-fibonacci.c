@@ -17,8 +17,6 @@ int main(void)
 			m = l - m;
 		}
 		++n;
-		printf("%ld\n", result);
-		return (0);
 	}
 	printf("%ld\n", result);
 	return (0);
