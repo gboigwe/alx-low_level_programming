@@ -14,8 +14,8 @@ int main(void)
 		if (l % 2 == 0)
 		{
 			result += l;
-			m = l - m;
 		}
+		m = l - m;
 		++n;
 	}
 	printf("%ld\n", result);
