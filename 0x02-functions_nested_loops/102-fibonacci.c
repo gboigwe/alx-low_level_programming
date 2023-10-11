@@ -12,14 +12,14 @@ int main(void)
 	while (n < 50)
 	{
 		if (n == 0)
-			printf("%d", m);
+			printf("%ld", m);
 		else if (n == 1)
-			printf(", %d", l);
+			printf(", %ld", l);
 		else
 		{
 			l += m;
 			m = l - m;
-			printf(", %d", l);
+			printf(", %ld", l);
 		}
 		++n;
 	}
