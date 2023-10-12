@@ -11,9 +11,9 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-        i = 0;
-
-/*	while (i < 10)
+/*	i = 0;
+*
+*	while (i < 10)
 *	{
 *		putchar(i);
 *	} This is what is causing infinite loop so it has been avoided
