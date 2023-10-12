@@ -15,7 +15,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);/* i is not assigned a value or task so the code will keep looping */
+		putchar(i); /* i is not assigned a value or task so the code will keep looping */
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
