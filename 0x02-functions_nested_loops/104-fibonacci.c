@@ -11,9 +11,9 @@ int main(void)
 	unsigned long fbnc1_div1, fbnc1_div2, fbnc2_div1, fbnc2_div2;
 	unsigned long div1, div2;
 
-	for (numc = 0; nums < 92; nums++)
+	for (nums = 0; nums < 92; nums++)
 	{
-		sum = fbnc1 + fbnc2;
+		result = fbnc1 + fbnc2;
 		printf("%lu, ", result);
 		fbnc1 = fbnc2;
 		fbnc2 = result;
