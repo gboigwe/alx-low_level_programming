@@ -5,12 +5,13 @@
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
  * Return: Always 0 (Success)
-  */
+ */
 int main(void)
 {
 	long int n;
 	long int max;
 	long int i;
+
 	n = 612852475143;
 	max = -1;
 
@@ -28,10 +29,10 @@ int main(void)
 			max = i;
 			n = n / i;
 		}
-														}
+	}
 
-	if (n > 2)												max = n;
-
+	if (n > 2)								
+		max = n;
 
 	printf("%ld\n", max);
 
