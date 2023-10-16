@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reset_to_98 - Resets a pointer
- * @c: The character was written
+ * @n: The character to be checked
  *
  * Description: This function changes the value of a pointer
  */
