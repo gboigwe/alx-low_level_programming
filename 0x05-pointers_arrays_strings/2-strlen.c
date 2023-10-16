@@ -2,10 +2,11 @@
 /**
  * _strlen - This function checks the length of a string
  * @s: The character to be checked
- */
+B   */
 int _strlen(char *s)
 {
 	int i = 0;
+
 	while (*s != '\0')
 	{
 		i++;
