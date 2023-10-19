@@ -5,6 +5,8 @@
  * @dest: This variable represents destination
  * @src: This variable represents the source
  * @n: This represents the number of bytes to be copied
+ *
+ * Return: This function returns dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
