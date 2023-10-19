@@ -8,16 +8,16 @@
  */
 void reverse_array(int *a, int n)
 {
-	int swap, begin, end;
+	int swap, start, end;
 
-	begin = 0;
+	start = 0;
 	end = n - 1;
-	while (begin < end)
+	while (start < end)
 	{
-		swap = *(a + begin);
-		*(a + begin) = *(a + end);
+		swap = *(a + start);
+		*(a + start) = *(a + end);
 		*(a + end) = swap;
-		begin++;
+		start++;
 		end--;
 	}
 }
