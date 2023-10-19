@@ -10,5 +10,6 @@ char *string_toupper(char *);
 char *cap_string(char *cap);
 char *leet(char *lee);
 char *string_toupper(char *az);
+char *rot13(char *n);
 
 #endif
