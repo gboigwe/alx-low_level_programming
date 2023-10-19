@@ -5,6 +5,8 @@
  * @dest: This is the destination variable
  * @src: This is the source variable
  * @n: This is the n bytes from src
+ *
+ * Return: This function returns dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
