@@ -6,15 +6,18 @@
  * @src: The source variable
  * @n: The number of n block
  *
- * Return:This function does not return anything
+ * Return: This functio returns destin
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	unsigned int num = n;
+	unsigned int i;
 	char *source = src;
 	char *destin = dest;
 
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < num; i++)
 	{
 		destin[i] = source[i];
 	}
+	return (dest);
 }
