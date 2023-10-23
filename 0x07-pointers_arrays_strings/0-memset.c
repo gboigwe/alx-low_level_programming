@@ -5,16 +5,19 @@
  * @s: The address of the variable
  * @b: The value to be considered
  * @n: The number of n bytes
+ *
+ * Return: The value to be returned is memry
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int ind;
 	unsigned char *memry = s;
-	unsigned val = b;
 
-	for (i = 0; i < n; i++)
+	val = b;
+
+	for (ind = 0; ind < n; ind++)
 	{
-		memry[i] = val;
+		memry[ind] = val;
 	}
 	return (memry);
 }
