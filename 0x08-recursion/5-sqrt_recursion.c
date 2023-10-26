@@ -24,7 +24,7 @@ int sqrt_recursion2(int x, int y)
  *
  * Return: Returning the found square root
  */
-int _sqrt_recurtion(int n)
+int _sqrt_recursion(int n)
 {
 	return (sqrt_recursion2(n, 1));
 }
