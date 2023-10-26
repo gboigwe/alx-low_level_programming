@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (sqrt_recursion_2(n, 1));
 }
 /**
  * sqrt_recursion_2 - This function calculates the root
