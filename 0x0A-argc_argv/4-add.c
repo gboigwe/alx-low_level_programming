@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 			if_letter = argv[i];
 			while (*if_letter != 0)
 			{
-				if (*if_letter < 47 || *find_letter > 57)
+				if (*if_letter < 47 || *if_letter > 57)
 				{
 					printf("%s\n", c);
 					return (1);
