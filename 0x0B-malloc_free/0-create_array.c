@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * create_array - Function that creates an array of chars.
  * @size: Th number of allocated memory
