@@ -1,39 +1,47 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
- * string_nconcat - This funtion concat string pointing to a memory
- * @s1: String value to be taken
- * @s2: String value to be taken
- * @n: Size of memory space
+ * string_nconcat - Concatenates two strings using at
+ *                  most an inputted number of bytes.
+ * @s1: The first string.
+ * @s2: The second string.
+ * @n: The maximum number of bytes of s2 to concatenate to s1.
  *
- * Return: 0 Always
+ * Return: If the function fails - NULL.
+ *         Otherwise - a pointer to the concatenated space in memory.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int len1 = 0;
-	unsigned int len2 = 0;
+	char *concat;
+	unsigned int len = n, index;
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
+
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
-	while (s1[len1] != '\0')
+
+	for (index = 0; s1[index]; index++)
+		len++;
+
+	concat = malloc(sizeof(char) * (len + 1));
+
+	if (concat == NULL)
+		return (NULL);
+
+	len = 0;
+
+	for (index = 0; s1[index]; index++)
 	{
-		len1++;
+		concat[len++] = s1[index];
 	}
 
-	while (s2[len2] != '\0')
+	for (index = 0; s2[index] && index < n; index++)
 	{
-		len2++;
+		concat[len++] = s2[index];
 	}
+	concat[len] = '\0';
 
-	if (n >= len2)
-	{
-		n = len2;
-	}
-	return (0);
+	return (concat);
 }
