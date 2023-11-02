@@ -4,6 +4,7 @@
  * string_nconcat - This funtion concat string pointing to a memory
  * @s1: String value to be taken
  * @s2: String value to be taken
+ * @n: Size of memory space
  *
  * Return: 0 Always
  */
@@ -35,29 +36,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = len2;
 	}
-}
-/**
- * concats - This function concats the string
- * @total_len: The value of length size
- *
- * Return: The value of concats is returned
- */
-char *concats = (char *)malloc(total_len + 1)
-{
-	unsigned int total_len = len1 + n;
-
-	if (concats == NULL)
-	{
-		return (NULL);
-	}
-	for (unsigned int i = 0; i < len1; i++)
-	{
-		concats[i] = s1[i];
-	}
-	for (unsigned int i = 0; i < n; i++)
-	{
-		concats[len1 + i] = s2[i];
-	}
-	concats[total_len] = '\0';
-	return (concats);
 }
