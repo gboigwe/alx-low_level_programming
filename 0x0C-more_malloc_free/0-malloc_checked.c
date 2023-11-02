@@ -11,9 +11,8 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 	{
-		exit(98);  // Terminate the process with status value 98 on malloc failure
+		exit(98);
 	}
 
-	return ptr;
+	return (ptr);
 }
-
