@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  * string_nconcat - This funtion concat string pointing to a memory
  * @s1: String value to be taken
@@ -10,6 +10,9 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
+	unsigned int len1 = 0;
+	unsigned int len2 = 0;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -18,10 +21,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
-
-	unsigned int len1 = 0;
-	unsigned int len2 = 0;
-
 	while (s1[len1] != '\0')
 	{
 		len1++;
