@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "main.h"
 /**
  * _calloc - This functio allocates a memory
  * @nmemb: Number of memory size
