@@ -8,7 +8,7 @@
  */
 
 /**
- * dog - Struct for dog
+ * struct dog - Struct for dog
  * @name: The name of the dog
  * @agr: Age of the dog
  * @owner: The dog owner
