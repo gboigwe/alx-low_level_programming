@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * free_dog - Freeing up spaces after used
  * @d: The pointer that stored the struct address
