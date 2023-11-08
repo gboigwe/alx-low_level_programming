@@ -10,7 +10,7 @@
 /**
  * struct dog - Struct for dog
  * @name: The name of the dog
- * @agr: Age of the dog
+ * @age: Age of the dog
  * @owner: The dog owner
  */
 struct dog
