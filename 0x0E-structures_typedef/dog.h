@@ -1,5 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
+/*
+ * File: dog.h
+ * Auth: Gbolahan Akande
+ * Desc: Header file that defines a new type struct dog.
+ */
+
 /**
  * dog - Struct for dog
  * @name: The name of the dog
