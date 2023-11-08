@@ -1,5 +1,50 @@
 #include "dog.h"
 #include <stdlib.h>
+
+int _strlen(char *str);
+char *_strcpy(char *dest, char *src);
+dog_t *new_dog(char *name, float age, char *owner);
+
+/**
+ * _strlen - This function checks the length of a string
+ * @s: The character to be checked
+ *
+ * Return: Returning value i
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
+}
+
+/**
+ * _strcpy - This is a function that copies the string
+ * @dest: destinaton
+ * @src: source
+ * Return: non 0.
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int n = 0;
+
+	while (n >= 0)
+	{
+		*(dest + n) = *(src + n);
+		if (*(src + n) == '\0')
+		{
+			break;
+		}
+		n++;
+	}
+	return (dest);
+}
+
 /**
  * new_dog - Creates a new dog.
  * @name: The name of the dog.
