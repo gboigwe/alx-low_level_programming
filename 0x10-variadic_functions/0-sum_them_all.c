@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 #include <stdarg.h>
 /**
  * sum_them_all - Sums up as many value as given
@@ -9,10 +10,10 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list sum_them;
-	va_start(sum_them, n);
 	unsigned int i;
 	int result = 0;
+	va_list sum_them;
+	va_start(sum_them, n);
 
 	if (n == 0)
 	{
