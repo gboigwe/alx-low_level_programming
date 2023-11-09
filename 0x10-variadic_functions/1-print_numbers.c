@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stdio.>
+#include <stdio.h>
 #include <stdarg.h>
 /**
  * print_numbers - To print out only numebers
