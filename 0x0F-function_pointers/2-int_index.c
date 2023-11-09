@@ -1,4 +1,4 @@
-#include "function_pointers"
+#include "function_pointers.h"
 /**
  * int_index - Function that searches for an iteger
  * @array: Array parameter to be taken
