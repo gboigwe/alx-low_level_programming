@@ -9,7 +9,6 @@ void free_list(list_t *head)
 {
 	list_t *temp_free;
 
-	temp_free = head;
 	while (head != NULL)
 	{
 		temp_free = head;
