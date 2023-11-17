@@ -1,7 +1,12 @@
 #include <stdio.h>
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main()
 {
-    const char *myString = "Hello, Holberton";
+    const char *str = "Hello, Holberton";
 
     // Inline assembly to print a string
     asm volatile (
@@ -11,7 +16,7 @@ int main()
         "movl $14, %%edx\n"   // Length of the string
         "int $0x80\n"         // Make the system call
         :
-        : "r"(myString)       // Input: the string
+        : "r"(str)       // Input: the string
         : "eax", "ebx", "ecx", "edx" // Clobbered registers
     );
 
