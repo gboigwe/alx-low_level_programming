@@ -1,8 +1,10 @@
 #include "lists.h"
 /**
- * add_note - Adds to the list
+ * add_node - Adds to the list
  * @head: Pointer pointing to next double pointer
  * @str: String to be considered in adding
+ * 
+ * Return: The added node is done
  */
 list_t *add_node(list_t **head, const char *str)
 {
