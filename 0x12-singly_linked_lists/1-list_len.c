@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 /**
  * list_len - Lists out the length of chuncks of data
