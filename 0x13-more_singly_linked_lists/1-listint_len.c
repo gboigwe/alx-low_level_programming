@@ -5,7 +5,7 @@
  * listint_len -  This function will return the number,
  * of elements present in a linked list.
  * @h: pointer to the head of linked list.
- * 
+ *
  * Return: number of elements.
  */
 
