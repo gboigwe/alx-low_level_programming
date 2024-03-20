@@ -4,7 +4,7 @@ all: school
 
 school: main.o school.o
 	echo "gcc main.c school.c -o school"
-	gcc $(CFLAGS) main.c school.c -o school
+	gcc main.c school.c -o school
 
 clean:
 	echo "Removing everything but the source files"
