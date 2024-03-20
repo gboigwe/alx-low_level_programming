@@ -1,18 +1,23 @@
-.PHONY: all clean oclean fclean
+.PHONY: all clean oclean fclean re
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm ~
+RM = rm -f
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean:
-	$(RM) $(NAME)
+	$(RM) *~ $(NAME)
 
 oclean:
-	$(OBJ)
+	$(RM) $(OBJ)
 
 fclean:
-	$(RM) $(OBJ) $(NAME)
+	$(RM) *~ $(NAME)
+	$(RM) $(OBJ)
+
+re: $(OBJ)
+	$(RM) $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
