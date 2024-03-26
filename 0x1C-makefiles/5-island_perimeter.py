@@ -25,4 +25,4 @@ def island_perimeter(grid):
                     peri += 1
                     if (i > 0 and grid[i - 1][j] == 1):
                         peri += 1
-                        return size * 4 - peri * 2
+    return size * 4 - peri * 2
